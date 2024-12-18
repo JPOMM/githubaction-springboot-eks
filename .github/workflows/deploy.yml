@@ -59,7 +59,7 @@ jobs:
 
       - name: Update kubeconfig
         run: |
-          aws eks update-kubeconfig --region us-west-1 --name eks-cluster-utec-demo
+          aws eks update-kubeconfig --region sa-east-1 --name eg-test-eks-jpomm-utec-cluster
 
       # Despliegue en EKS
       - name: Deploy to EKS
